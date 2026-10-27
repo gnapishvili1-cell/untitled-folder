@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>მწვანე ხაზი — კონტაქტი</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">მწვანე <span>ხაზი</span></a>
+        <nav class="desktop-nav" aria-label="მთავარი ნავიგაცია">
+          <a href="index.html">მთავარი</a>
+          <a href="about.html">ჩვენ შესახებ</a>
+          <a href="products.html">პროდუქცია</a>
+          <a class="active" href="contact.html">კონტაქტი</a>
+        </nav>
+        <a class="header-button" href="products.html">ნახე პროდუქცია</a>
+        <details class="mobile-menu">
+          <summary>მენიუ ☰</summary>
+          <nav aria-label="მობილური ნავიგაცია">
+            <a href="index.html">მთავარი</a>
+            <a href="about.html">ჩვენ შესახებ</a>
+            <a href="products.html">პროდუქცია</a>
+            <a href="contact.html">კონტაქტი</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-banner">
+        <div class="container">
+          <span class="eyebrow">მოგვისმინე</span>
+          <h1>დაგვიკავშირდი<span class="accent-dot">.</span></h1>
+          <p>
+            შეკითხვა გაქვს ან დახმარება გჭირდება? მოგვწერე და სიამოვნებით
+            გიპასუხებთ.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div>
+            <span class="eyebrow">კონტაქტის ინფორმაცია</span>
+            <h2>მოხარული ვიქნებით შენი შეტყობინებით</h2>
+            <p class="lead">
+              გამოიყენე ფორმა ან დაგვიკავშირდი ქვემოთ მოცემული ინფორმაციის
+              საშუალებით.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-detail">
+                <strong>ელფოსტა</strong>
+                <span>hello@greenline.ge</span>
+              </div>
+              <div class="contact-detail">
+                <strong>ტელეფონი</strong>
+                <span>+995 555 12 34 56</span>
+              </div>
+              <div class="contact-detail">
+                <strong>მისამართი</strong>
+                <span>თბილისი, საქართველო</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <label>
+                სახელი
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="შენი სახელი"
+                  required
+                />
+              </label>
+              <label>
+                ელფოსტა
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="name@example.com"
+                  required
+                />
+              </label>
+            </div>
+
+            <label>
+              თემა
+              <input
+                type="text"
+                name="subject"
+                placeholder="რის შესახებ გვწერ?"
+              />
+            </label>
+
+            <label>
+              შეტყობინება
+              <textarea
+                name="message"
+                placeholder="მოგვწერე შეტყობინება..."
+                required
+              ></textarea>
+            </label>
+
+            <button class="button button-dark" type="submit">
+              შეტყობინების გაგზავნა
+            </button>
+            <small
+              >შენიშვნა: ფორმის შეტყობინებების მისაღებად საჭიროა სერვერზე ან
+              ფორმების სერვისზე მიერთება.</small
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 მწვანე ხაზი. ყველა უფლება დაცულია.</p>
+        <div class="footer-links">
+          <a href="index.html">მთავარი</a>
+          <a href="about.html">ჩვენ შესახებ</a>
+          <a href="products.html">პროდუქცია</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
